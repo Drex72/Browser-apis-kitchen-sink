@@ -1,0 +1,42 @@
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 50%;
+    min-width: 320px;
+}
+
+.heading {
+    margin: 0;
+}
+
+.paragraph {
+    line-height: 1.5;
+}
+
+.form {
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.form label {
+    flex: 2;
+}
+
+.form input {
+    flex: 3;
+}
+
+.form input[type="checkbox"] {
+    height: 2rem;
+}
