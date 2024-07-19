@@ -1,6 +1,6 @@
 # Browser Apis Kitchen Sink 🧑‍🍳
 
-Hey! We're actively recruiting cooks 🧑‍🍳 to help assemble a list of examples of your favorite Browser Api. [View it live at url](url)
+Hey! We're actively recruiting cooks 🧑‍🍳 to help assemble a list of examples of your favorite Browser Api. [View it https://browser-apis.vercel.app/](https://browser-apis.vercel.app/)
 
 ## Getting Started
 
