@@ -15,3 +15,14 @@ RUN npm run build
 EXPOSE 3000
 
 CMD [ "serve", "-s", "dist" ]
+
+# Intersection Observer API
+# Clipboard API
+# Network Information API
+# Resize Observer API
+# Battery Status API
+# Web Audio API
+# Credential Management API
+# PerformanceObserver API
+# Device Orientation
+# File Access Api
