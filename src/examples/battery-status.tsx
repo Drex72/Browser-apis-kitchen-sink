@@ -26,7 +26,7 @@ const BatteryStatusApp: React.FC = () => {
                     setIsCharging(battery.charging)
                     setBatteryStatus(battery.charging ? "Charging" : "Discharging")
                     // Adjust functionality based on battery level
-                    if (battery.level < batteryThreshold / 100) {
+                    if (battery.level < batteryThreshold / 100 || !isCharging) {
                         document.body.classList.add(styles.lowBattery)
                     } else {
                         document.body.classList.remove(styles.lowBattery)
