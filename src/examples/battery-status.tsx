@@ -20,7 +20,7 @@ const BatteryStatusApp: React.FC = () => {
     useEffect(() => {
         const updateBatteryStatus = async () => {
             if ("getBattery" in navigator) {
-                const battery = await navigator.getBattery()
+                const battery = await (navigator as any).getBattery()
                 const updateInfo = () => {
                     setBatteryLevel(battery.level * 100)
                     setIsCharging(battery.charging)
